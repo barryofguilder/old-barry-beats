@@ -1,7 +1,7 @@
-# barry-beats
+# Barry Beats
 
-This README outlines the details of collaborating on this Ember application.
-A short introduction of this app could easily go here.
+An Ember.js Octane app that's heavily insipired by [ember-beats](https://github.com/GavinJoyce/ember-beats)
+and the [YouTube livesteam](https://www.youtube.com/watch?v=5znpEiwHpL4) of building the Octane version.
 
 ## Prerequisites
 
@@ -17,6 +17,27 @@ You will need the following things properly installed on your computer.
 * `git clone <repository-url>` this repository
 * `cd barry-beats`
 * `npm install`
+
+### Prettier Setup
+
+This project uses the [Prettier](https://prettier.io/) code formatter, so you'll want the plugin 
+for your editor installed
+
+* [Editor Integration](https://prettier.io/docs/en/editors.html)
+
+If you want the files to format on save in VSCode, add the following to your workspace 
+`settings.json` file:
+
+```
+{
+  "[javascript]": {
+    "editor.formatOnSave": true
+  },
+  "[json]": {
+    "editor.formatOnSave": true
+  }
+}
+```
 
 ## Running / Development
 
