@@ -1,0 +1,13 @@
+Song List ({{@model.length}})
+
+<ul>
+  {{#each @model as |song|}}
+    <li>
+      <LinkTo @route="songs.song" @model={{song.id}}>
+        {{song.name}}
+      </LinkTo>
+    </li>
+  {{/each}}
+</ul>
+
+{{outlet}}
